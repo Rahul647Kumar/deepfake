@@ -1,0 +1,3 @@
+pip install Flask
+pip install tensorflow  # If you are using TensorFlow for your model
+pip install Pillow  # For handling images

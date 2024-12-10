@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image/Video Classification</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Face Classification (Real vs Fake)</h1>
+
+        <!-- Image/Video Upload Section -->
+        <h2>Upload Image or Video</h2>
+        <input type="file" id="inputFile" accept="image/*,video/*" />
+
+        <button onclick="uploadFile()">Upload and Classify</button>
+
+        <!-- Result Section -->
+        <div id="result">
+            <h2>Prediction:</h2>
+            <div id="prediction"></div>
+            <h2>Explainability Map:</h2>
+            <img id="explainability" alt="Explainability Image" />
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
